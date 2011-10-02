@@ -1,0 +1,125 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'redmineresource.h'
+**
+** Created: Sun Oct 2 23:09:17 2011
+**      by: The Qt Meta Object Compiler version 62 (Qt 4.7.4)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include "../redmineresource.h"
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'redmineresource.h' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 62
+#error "This file was generated using the moc from 4.7.4. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+static const uint qt_meta_data_redmineResource[] = {
+
+ // content:
+       5,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      12,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       1,       // signalCount
+
+ // signals: signature, parameters, type, tag, flags
+      17,   16,   16,   16, 0x05,
+
+ // slots: signature, parameters, type, tag, flags
+      40,   31,   16,   16, 0x0a,
+      55,   16,   16,   16, 0x09,
+      81,   77,   16,   16, 0x09,
+     132,  121,  116,   16, 0x09,
+     177,   16,   16,   16, 0x09,
+     194,  192,   16,   16, 0x09,
+     233,  192,   16,   16, 0x09,
+     279,  192,   16,   16, 0x09,
+     319,   16,   16,   16, 0x09,
+     341,   16,   16,   16, 0x09,
+     370,   16,   16,   16, 0x09,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_redmineResource[] = {
+    "redmineResource\0\0userChanged()\0windowId\0"
+    "configure(WId)\0retrieveCollections()\0"
+    "col\0retrieveItems(Akonadi::Collection)\0"
+    "bool\0item,parts\0"
+    "retrieveItem(Akonadi::Item,QSet<QByteArray>)\0"
+    "retrieveUser()\0,\0"
+    "userDataReceived(KIO::Job*,QByteArray)\0"
+    "collectionsDataReceived(KIO::Job*,QByteArray)\0"
+    "itemsDataReceived(KIO::Job*,QByteArray)\0"
+    "userDataResult(KJob*)\0"
+    "collectionsDataResult(KJob*)\0"
+    "itemsDataResult(KJob*)\0"
+};
+
+const QMetaObject redmineResource::staticMetaObject = {
+    { &Akonadi::ResourceBase::staticMetaObject, qt_meta_stringdata_redmineResource,
+      qt_meta_data_redmineResource, 0 }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &redmineResource::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *redmineResource::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *redmineResource::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_redmineResource))
+        return static_cast<void*>(const_cast< redmineResource*>(this));
+    if (!strcmp(_clname, "Akonadi::AgentBase::Observer"))
+        return static_cast< Akonadi::AgentBase::Observer*>(const_cast< redmineResource*>(this));
+    typedef Akonadi::ResourceBase QMocSuperClass;
+    return QMocSuperClass::qt_metacast(_clname);
+}
+
+int redmineResource::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    typedef Akonadi::ResourceBase QMocSuperClass;
+    _id = QMocSuperClass::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        switch (_id) {
+        case 0: userChanged(); break;
+        case 1: configure((*reinterpret_cast< WId(*)>(_a[1]))); break;
+        case 2: retrieveCollections(); break;
+        case 3: retrieveItems((*reinterpret_cast< const Akonadi::Collection(*)>(_a[1]))); break;
+        case 4: { bool _r = retrieveItem((*reinterpret_cast< const Akonadi::Item(*)>(_a[1])),(*reinterpret_cast< const QSet<QByteArray>(*)>(_a[2])));
+            if (_a[0]) *reinterpret_cast< bool*>(_a[0]) = _r; }  break;
+        case 5: retrieveUser(); break;
+        case 6: userDataReceived((*reinterpret_cast< KIO::Job*(*)>(_a[1])),(*reinterpret_cast< const QByteArray(*)>(_a[2]))); break;
+        case 7: collectionsDataReceived((*reinterpret_cast< KIO::Job*(*)>(_a[1])),(*reinterpret_cast< const QByteArray(*)>(_a[2]))); break;
+        case 8: itemsDataReceived((*reinterpret_cast< KIO::Job*(*)>(_a[1])),(*reinterpret_cast< const QByteArray(*)>(_a[2]))); break;
+        case 9: userDataResult((*reinterpret_cast< KJob*(*)>(_a[1]))); break;
+        case 10: collectionsDataResult((*reinterpret_cast< KJob*(*)>(_a[1]))); break;
+        case 11: itemsDataResult((*reinterpret_cast< KJob*(*)>(_a[1]))); break;
+        default: ;
+        }
+        _id -= 12;
+    }
+    return _id;
+}
+
+// SIGNAL 0
+void redmineResource::userChanged()
+{
+    QMetaObject::activate(this, &staticMetaObject, 0, 0);
+}
+QT_END_MOC_NAMESPACE

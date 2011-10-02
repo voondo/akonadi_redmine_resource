@@ -1,0 +1,8 @@
+# Hashes of file build rules.
+21691835aa4ddb7d2bfeccf16f4db554 CMakeFiles/akonadi_redmine_resource_automoc
+010386c0622d6d83e64a34371067b820 CMakeFiles/uninstall
+809a3cfd010ddbc3aeb976c785cf1858 org.kde.Akonadi.redmine.Settings.xml
+9586f89605d0d5febc409694e2aab1ed settings.h
+758336ea03fa4f350c22270b4c22ca10 settingsadaptor.cpp
+64b0c297b8723f5cee5dd01c8ffd2991 settingsadaptor.moc
+1186a7245adb51efd6dc1125aebb48bd ui_settingsform.h

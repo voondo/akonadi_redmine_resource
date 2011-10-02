@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:kcfg="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+      http://www.kde.org/standards/kcfg/1.0/kcfg.xsd" >
+  <kcfgfile/>
+  <group name="General">
+    <entry name="endpoint" type="String">
+      <label>Endpoint URL</label>
+      <tooltip>e.g http://www.example.com/redmine</tooltip>
+      <default></default>
+    </entry>
+    <entry name="limit" type="Int">
+      <label>Limit per project</label>
+      <tooltip>Maximum number of issues fetched per project</tooltip>
+      <default>100</default>
+    </entry>
+  </group>
+</kcfg>

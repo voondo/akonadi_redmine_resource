@@ -1,0 +1,3 @@
+/home/romain/Dev/akonadi/redmine/build/CMakeFiles/akonadi_redmine_resource.dir
+/home/romain/Dev/akonadi/redmine/build/CMakeFiles/akonadi_redmine_resource_automoc.dir
+/home/romain/Dev/akonadi/redmine/build/CMakeFiles/uninstall.dir
