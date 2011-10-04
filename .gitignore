@@ -1,2 +1,4 @@
 *.kate-swp
 *~
+redmine.kdev4
+.kdev4/
